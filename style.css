@@ -1,0 +1,98 @@
+/* Warna dasar pink dan putih */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #d63384;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 30px auto;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #f8b8d0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ff99cc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e0559d;
+}
+
+/* Tabel Jadwal Customer */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff0f5;
+    box-shadow: 0 0 10px #f8b8d0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ffb3d9;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff66b2;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f0;
+}
+
+/* Tombol Logout (opsional) */
+.logout-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #e0559d;
+}

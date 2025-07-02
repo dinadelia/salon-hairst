@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f0;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 12px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0 0 10px #f8b8d0;
+}
+
+input[type="text"], input[type="date"], input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ff99cc;
+}
+
+input[type="submit"] {
+    background: #ff66b2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: #e0559d;
+}
+
+/* Jadwal Kosong Style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff0f5;
+    box-shadow: 0 0 10px #f8b8d0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ffb3d9;
+}
+
+th {
+    background: #ff66b2;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f0;
+}
+
+/* Pesan Booking Berhasil */
+.success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Pesan Error */
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}

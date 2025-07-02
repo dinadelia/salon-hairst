@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f0;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #d63384;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #fff0f5;
+    padding: 20px;
+    margin: 15px auto;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #f8b8d0;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin: 0;
+    color: #ff66b2;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d63384;
+}
+
+/* Table Style (kalau ada di jadwal_customer.php) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff0f5;
+    box-shadow: 0 0 10px #f8b8d0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ffb3d9;
+}
+
+th {
+    background: #ff66b2;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f0;
+}
+
+/* Button Style (kalau ada) */
+button, input[type="submit"] {
+    background: #ff66b2;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #e0559d;
+}
